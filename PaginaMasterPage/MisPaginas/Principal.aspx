@@ -6,6 +6,7 @@
  <div>
             <ul>
                 <li><a href="EjemploJQuery.aspx"> Ejemplo JQuery </a></li>
+                <li><a href="EjemploBootstrap.aspx">Ejemplo Bootstrap</a></li>
             </ul>
 
         </div>

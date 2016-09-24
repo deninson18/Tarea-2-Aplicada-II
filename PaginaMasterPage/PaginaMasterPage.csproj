@@ -211,6 +211,7 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
+    <Content Include="MisPaginas\EjemploBootstrap.aspx" />
     <Content Include="MisPaginas\EjemploJQuery.aspx" />
     <Content Include="MisPaginas\Principal.aspx" />
     <Content Include="Scripts\ai.0.15.0-build58334.js" />
@@ -396,6 +397,13 @@
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="MisPaginas\EjemploBootstrap.aspx.cs">
+      <DependentUpon>EjemploBootstrap.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MisPaginas\EjemploBootstrap.aspx.designer.cs">
+      <DependentUpon>EjemploBootstrap.aspx</DependentUpon>
     </Compile>
     <Compile Include="MisPaginas\EjemploJQuery.aspx.cs">
       <DependentUpon>EjemploJQuery.aspx</DependentUpon>
